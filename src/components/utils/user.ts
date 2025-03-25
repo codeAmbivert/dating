@@ -1,0 +1,182 @@
+import {
+  DavinaAvatar,
+  DavonAvatar,
+  EmilyAvatar,
+  JohnAvatar,
+  KarenAvatar,
+  KevinAvatar,
+  LilyAvatar,
+  LoveAvatar,
+  MadsAvatar,
+  VivianAvatar,
+} from "../../../public/icons/iconsExport";
+
+export const users = [
+  {
+    name: "Davina",
+    age: 23,
+    match: 85,
+    location: "Abuja",
+    verified: true,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/davina.png",
+    avatar: DavinaAvatar,
+  },
+  {
+    name: "Karen",
+    age: 23,
+    match: 85,
+    location: "Abuja",
+    verified: false,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/davina.png",
+    avatar: KarenAvatar,
+    greenbtn: true,
+  },
+  {
+    name: "Emily",
+    age: 31,
+    match: 80,
+    location: "Lagos",
+    verified: false,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/emily.png",
+    avatar: EmilyAvatar,
+  },
+  {
+    name: "John",
+    age: 28,
+    match: 72,
+    location: "Delta",
+    verified: true,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/john.png",
+    avatar: JohnAvatar,
+  },
+  {
+    name: "Mads",
+    age: 26,
+    match: 77,
+    location: "",
+    verified: true,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/mads.png",
+    avatar: MadsAvatar,
+  },
+  {
+    name: "Karen",
+    age: 23,
+    match: 85,
+    location: "Abuja",
+    verified: false,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/davina.png",
+    avatar: KarenAvatar,
+    greenbtn: true,
+  },
+  {
+    name: "Sharon",
+    age: 24,
+    match: 80,
+    location: "Lagos",
+    verified: true,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/mads.png",
+    avatar: KevinAvatar,
+  },
+  {
+    name: "Love",
+    age: "",
+    match: 80,
+    location: "",
+    verified: false,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/love.png",
+    avatar: LoveAvatar,
+  },
+  {
+    name: "Lily",
+    age: 25,
+    match: 89,
+    location: "Lagos",
+    verified: false,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/lily.png",
+    avatar: LilyAvatar,
+  },
+  {
+    name: "Davon",
+    age: 34,
+    match: 80,
+    location: "Lagos",
+    verified: false,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/davon.png",
+    avatar: DavonAvatar,
+  },
+  {
+    name: "Vivian",
+    age: "",
+    match: 71,
+    location: "",
+    verified: false,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/vivian.png",
+    avatar: VivianAvatar,
+  },
+  {
+    name: "John",
+    age: 28,
+    match: 72,
+    location: "Delta",
+    verified: true,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/john.png",
+    avatar: JohnAvatar,
+  },
+  {
+    name: "Davina",
+    age: 21,
+    match: 80,
+    location: "ibadan",
+    verified: false,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/davina2.png",
+    avatar: DavinaAvatar,
+  },
+  {
+    name: "Love",
+    age: "",
+    match: 80,
+    location: "",
+    verified: false,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/love.png",
+    avatar: LoveAvatar,
+  },
+  {
+    name: "Jack",
+    age: 30,
+    match: 97,
+    location: "Lagos",
+    verified: false,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare eros mi, sed auctor libero finibus nec. Integer pretium orci nec nulla pellentesque pretium. Lorem ipsum dolor sit amet, consectetur",
+    banner: "/images/jack.png",
+    avatar: VivianAvatar,
+  },
+];
