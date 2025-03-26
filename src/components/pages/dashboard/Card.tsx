@@ -16,7 +16,7 @@ interface cardProps {
     description: string;
     banner: string;
     avatar: React.ElementType;
-    greenbtn: boolean;
+    greenbtn?: boolean;
   };
 }
 

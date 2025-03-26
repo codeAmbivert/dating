@@ -10,7 +10,7 @@ interface userProps {
   description: string;
   banner: string;
   avatar: React.ElementType;
-  greenbtn: bo
+  greenbtn?: boolean;
 }
 
 const DashboardCards = () => {
